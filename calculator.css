@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+    padding: 0; 
+    background-color:grey;
+}
+
+.outer{
+    width: 300px; 
+    height: 65%;
+    text-align: center; 
+    background-color:#410200;
+    padding: 20px; 
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2); 
+    
+}
+.solar{
+    width:120px;
+    height:30px;
+    background-color:#2C3E4C;
+    margin-left:170px;
+    box-shadow:inset 8px 8px 15px rgba(0,0,0,0.2), inset 5px 5px 15px rgba(0,0,0,0.2);
+}
+
+@font-face {
+    font-family:'digital' ;
+    src: url('digital-7.ttf');
+}
+.displaybar{
+    margin-top: 8px;
+    padding-top: 2px;
+    width:300px;
+    height:80px;
+    background-color:#27362e;
+    box-shadow:inset 8px 8px 15px rgba(0,0,0,0.2), inset 5px 5px 15px rgba(0,0,0,0.2);
+    border: none;
+    color: black;
+    text-align: right;
+    font-family: digital;
+    font-size: 100px;
+}
+.error-message {
+    font-size: 55px; 
+}
+.buttons{
+    margin-top: 18px;
+}
+.buttons input{
+    border:0;
+    outline: 0;
+    width:55px;
+    height: 55px;
+    padding: 20px;
+    margin: 7px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0,0,0,0.2);
+    cursor: pointer;
+    background-color:#FFD800;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.5),
+    inset -3px -3px 5px rgba(255, 255, 255, 0.1),
+    inset 3px -3px 5px rgba(255, 255, 255, 0.1),
+    inset -3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+.buttons input.equal{
+    width: 130px;
+}
